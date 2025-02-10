@@ -1,0 +1,61 @@
+Feb 06 20:06:16.665 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Feb 06 20:06:16.665 HYPERVISOR: Started on IP = localhost, TCP port = 60436.
+Feb 06 20:06:16.681 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 06 20:06:16.681 HYPERVISOR: exec_cmd: hypervisor working_dir D:\6_SEM\ИСОБ\LR1\LabRab1\project-files\dynamips 
+Feb 06 20:06:16.691 GENERAL: working_dir=D:\6_SEM\ИСОБ\LR1\LabRab1\project-files\dynamips
+Feb 06 20:06:16.691 HYPERVISOR: exec_cmd: hypervisor working_dir D:\6_SEM\ИСОБ\LR1\LabRab1\project-files\dynamips\27bf1425-f712-4c65-9b95-88b7f68f87bf 
+Feb 06 20:06:16.691 GENERAL: working_dir=D:\6_SEM\ИСОБ\LR1\LabRab1\project-files\dynamips\27bf1425-f712-4c65-9b95-88b7f68f87bf
+Feb 06 20:06:16.697 HYPERVISOR: exec_cmd: vm create R1 1 c3745 
+Feb 06 20:06:16.697 VM: VM R1 created.
+Feb 06 20:06:16.697 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Feb 06 20:06:16.697 HYPERVISOR: exec_cmd: c3745 get_mac_addr R1 
+Feb 06 20:06:16.697 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/User/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Feb 06 20:06:16.697 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Feb 06 20:06:16.697 HYPERVISOR: exec_cmd: vm set_ram R1 256 
+Feb 06 20:06:16.697 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Feb 06 20:06:16.697 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Feb 06 20:06:17.024 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/User/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Feb 06 20:07:19.593 HYPERVISOR: exec_cmd: nio create_udp udp-c1700628-ca4a-439a-81c9-e2d6feccf5d5 10002 127.0.0.1 10003 
+Feb 06 20:07:20.052 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-c1700628-ca4a-439a-81c9-e2d6feccf5d5 
+Feb 06 20:07:20.052 HYPERVISOR: exec_cmd: vm get_status R1 
+Feb 06 20:07:43.965 HYPERVISOR: exec_cmd: nio create_udp udp-ead9c2d9-5b48-4e3a-a352-b070047a818e 10008 127.0.0.1 10009 
+Feb 06 20:07:43.978 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 1 udp-ead9c2d9-5b48-4e3a-a352-b070047a818e 
+Feb 06 20:07:43.978 HYPERVISOR: exec_cmd: vm get_status R1 
+Feb 06 20:11:23.217 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/User/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Feb 06 20:11:23.217 HYPERVISOR: exec_cmd: vm rename R1 Dubaisk 
+Feb 06 20:11:23.314 HYPERVISOR: exec_cmd: vm set_ios Dubaisk C:/Users/User/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Feb 06 20:13:21.466 HYPERVISOR: exec_cmd: vm set_ios Dubaisk C:/Users/User/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Feb 06 20:13:21.538 HYPERVISOR: exec_cmd: vm set_ios Dubaisk C:/Users/User/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Feb 06 20:15:52.462 HYPERVISOR: exec_cmd: vm set_ios Dubaisk C:/Users/User/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Feb 06 20:16:01.143 HYPERVISOR: exec_cmd: vm set_ios Dubaisk C:/Users/User/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Feb 06 20:16:13.763 HYPERVISOR: exec_cmd: vm set_ios Dubaisk C:/Users/User/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Feb 06 20:17:41.818 HYPERVISOR: exec_cmd: vm create Ghost 0 c3745 
+Feb 06 20:17:41.826 VM: VM Ghost created.
+Feb 06 20:17:41.826 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/User/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Feb 06 20:17:41.826 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Feb 06 20:17:41.826 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost D:\6_SEM\ИСОБ\LR1\LabRab1\project-files\dynamips\c3745-advipservicesk9-mz.124-25d.image-256.ghost 
+Feb 06 20:17:41.832 HYPERVISOR: exec_cmd: vm set_ram Ghost 256 
+Feb 06 20:17:41.832 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Feb 06 20:17:41.832 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Feb 06 20:17:41.832 HYPERVISOR: exec_cmd: vm start Ghost 
+Feb 06 20:17:42.259 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Feb 06 20:17:42.259 HYPERVISOR: exec_cmd: vm stop Ghost 
+Feb 06 20:17:42.504 VM: VM Ghost shutdown.
+Feb 06 20:17:42.504 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Feb 06 20:17:42.504 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Feb 06 20:17:42.504 VM: VM Ghost destroyed.
+Feb 06 20:17:42.532 HYPERVISOR: exec_cmd: vm set_ghost_status Dubaisk 2 
+Feb 06 20:17:42.532 HYPERVISOR: exec_cmd: vm set_ghost_file Dubaisk D:\6_SEM\ИСОБ\LR1\LabRab1\project-files\dynamips\c3745-advipservicesk9-mz.124-25d.image-256.ghost 
+Feb 06 20:17:42.532 HYPERVISOR: exec_cmd: vm get_status Dubaisk 
+Feb 06 20:17:42.548 HYPERVISOR: exec_cmd: vm set_config Dubaisk configs\i1_startup-config.cfg 
+Feb 06 20:17:42.548 HYPERVISOR: exec_cmd: vm start Dubaisk 
+Feb 06 20:32:13.145 HYPERVISOR: exec_cmd: vm extract_config Dubaisk 
+Feb 06 20:32:13.161 HYPERVISOR: exec_cmd: vm extract_config Dubaisk 
+Feb 06 21:26:44.243 HYPERVISOR: exec_cmd: vm extract_config Dubaisk 
+Feb 06 21:26:44.264 HYPERVISOR: exec_cmd: vm extract_config Dubaisk 
+Feb 06 21:56:08.466 HYPERVISOR: exec_cmd: vm get_status Dubaisk 
+Feb 06 21:56:08.466 HYPERVISOR: exec_cmd: vm stop Dubaisk 
+Feb 06 21:56:08.556 VM: VM Dubaisk shutdown.
+Feb 06 21:56:08.558 HYPERVISOR: exec_cmd: vm extract_config Dubaisk 
+Feb 06 21:56:22.434 HYPERVISOR: exec_cmd: vm get_status Dubaisk 
+Feb 06 21:56:22.435 HYPERVISOR: exec_cmd: vm extract_config Dubaisk 

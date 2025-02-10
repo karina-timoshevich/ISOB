@@ -1,0 +1,39 @@
+Feb 06 20:06:23.494 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Feb 06 20:06:23.502 HYPERVISOR: Started on IP = localhost, TCP port = 60457.
+Feb 06 20:06:23.972 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 06 20:06:23.972 HYPERVISOR: exec_cmd: hypervisor working_dir D:\6_SEM\ИСОБ\LR1\LabRab1\project-files\dynamips 
+Feb 06 20:06:23.972 GENERAL: working_dir=D:\6_SEM\ИСОБ\LR1\LabRab1\project-files\dynamips
+Feb 06 20:06:23.972 HYPERVISOR: exec_cmd: hypervisor working_dir D:\6_SEM\ИСОБ\LR1\LabRab1\project-files\dynamips\d7f8a049-ec78-4a5c-84aa-eaec63119c54 
+Feb 06 20:06:23.972 GENERAL: working_dir=D:\6_SEM\ИСОБ\LR1\LabRab1\project-files\dynamips\d7f8a049-ec78-4a5c-84aa-eaec63119c54
+Feb 06 20:06:23.983 HYPERVISOR: exec_cmd: vm create R3 3 c3745 
+Feb 06 20:06:23.983 VM: VM R3 created.
+Feb 06 20:06:23.983 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5002 
+Feb 06 20:06:23.983 HYPERVISOR: exec_cmd: c3745 get_mac_addr R3 
+Feb 06 20:06:23.983 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/User/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Feb 06 20:06:23.983 HYPERVISOR: exec_cmd: vm set_exec_area R3 64 
+Feb 06 20:06:23.983 HYPERVISOR: exec_cmd: vm set_ram R3 256 
+Feb 06 20:06:23.991 HYPERVISOR: exec_cmd: vm set_nvram R3 256 
+Feb 06 20:06:23.991 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+Feb 06 20:06:24.063 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/User/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Feb 06 20:07:43.987 HYPERVISOR: exec_cmd: nio create_udp udp-cebc32d0-3bb6-4eb6-b490-27cd5b10fc1f 10010 127.0.0.1 10011 
+Feb 06 20:07:44.287 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 0 udp-cebc32d0-3bb6-4eb6-b490-27cd5b10fc1f 
+Feb 06 20:07:44.287 HYPERVISOR: exec_cmd: vm get_status R3 
+Feb 06 20:11:58.108 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/User/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Feb 06 20:11:58.108 HYPERVISOR: exec_cmd: vm rename R3 Brazilia 
+Feb 06 20:11:58.188 HYPERVISOR: exec_cmd: vm set_ios Brazilia C:/Users/User/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Feb 06 20:16:30.111 HYPERVISOR: exec_cmd: vm set_ios Brazilia C:/Users/User/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Feb 06 20:38:03.542 HYPERVISOR: exec_cmd: vm set_ghost_status Brazilia 2 
+Feb 06 20:38:03.543 HYPERVISOR: exec_cmd: vm set_ghost_file Brazilia D:\6_SEM\ИСОБ\LR1\LabRab1\project-files\dynamips\c3745-advipservicesk9-mz.124-25d.image-256.ghost 
+Feb 06 20:38:03.543 HYPERVISOR: exec_cmd: vm get_status Brazilia 
+Feb 06 20:38:03.552 HYPERVISOR: exec_cmd: vm set_config Brazilia configs\i3_startup-config.cfg 
+Feb 06 20:38:03.552 HYPERVISOR: exec_cmd: vm start Brazilia 
+Feb 06 20:41:03.880 HYPERVISOR: exec_cmd: vm extract_config Brazilia 
+Feb 06 20:41:03.901 HYPERVISOR: exec_cmd: vm extract_config Brazilia 
+Feb 06 21:56:05.511 HYPERVISOR: exec_cmd: vm extract_config Brazilia 
+Feb 06 21:56:05.526 HYPERVISOR: exec_cmd: vm extract_config Brazilia 
+Feb 06 21:56:08.466 HYPERVISOR: exec_cmd: vm get_status Brazilia 
+Feb 06 21:56:08.466 HYPERVISOR: exec_cmd: vm stop Brazilia 
+Feb 06 21:56:08.529 VM: VM Brazilia shutdown.
+Feb 06 21:56:08.529 HYPERVISOR: exec_cmd: vm extract_config Brazilia 
+Feb 06 21:56:22.434 HYPERVISOR: exec_cmd: vm get_status Brazilia 
+Feb 06 21:56:22.435 HYPERVISOR: exec_cmd: vm extract_config Brazilia 
